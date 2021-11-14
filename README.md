@@ -35,6 +35,11 @@ Make sure to add codeblock in the pugins line too:
 plugins: [ fullscreen, table, video, imagemanager, definedlinks, alphalist, codeblock]
 ```
 
+## Resources
+
+- [Imperavi - Redactor API Services](https://imperavi.com/redactor/docs/api-services/)
+- [Imperavi - How to create a plugin for Redactor](https://imperavi.com/redactor/docs/how-to/create-a-plugin/)
+
 ## Maintainer
 
 | [![twitter/mikescops](https://avatars0.githubusercontent.com/u/4266283?s=100&v=4)](https://pixelswap.fr 'Personal Website') |
