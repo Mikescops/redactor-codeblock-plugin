@@ -7,10 +7,10 @@
     $R.add('plugin', 'codeblock', {
         translations: {
             en: {
-                "code": "Code Block",
+                "codeblock": "Code Block",
             },
             fr: {
-                "code": "Bloc de code",
+                "codeblock": "Bloc de code",
             }
         },
         languages: ['Typescript', 'Javascript', 'JSON', 'SCSS', 'HTML', 'Python'],
@@ -35,7 +35,7 @@
             const dropdownData = this.languages.reduce((map, language) => {
                 map[language] = {
                     title: language,
-                    api: 'plugin.code.addCodeBlock',
+                    api: 'plugin.codeblock.addCodeBlock',
                     args: { language: language.toLowerCase() }
                 };
                 return map;
@@ -47,7 +47,7 @@
             };
 
             // create the actual button
-            const $button = this.toolbar.addButtonAfter('format', 'code', buttonData);
+            const $button = this.toolbar.addButtonAfter('format', 'codeblock', buttonData);
             $button.setIcon('<i class="re-icon-codesnippets"></i>');
 
             $button.setDropdown(dropdownData);
